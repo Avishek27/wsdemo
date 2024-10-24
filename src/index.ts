@@ -1,6 +1,5 @@
 import {WebSocket, WebSocketServer } from "ws";
-
-const express = require("express");
+import express from "express";
 const app = express();
 
 const httpServer = app.listen(8000);
